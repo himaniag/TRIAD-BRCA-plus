@@ -1,0 +1,9 @@
+﻿Module / axis,Genes (n),Genes,Mean Basal-like,Mean HER2-enriched,Mean Luminal A,Mean Luminal B,Kruskal H,p
+Proliferation,10,"AURKA, CCNB1, CDK1, CCNE1, E2F1, E2F2, E2F8, CHEK1, RAD51, CDC25A",+0.94,+0.33,-0.55,+0.24,911.1,<0.001
+Luminal/ER,7,"GATA3, BCL2, MAPT, AR, TBX3, NRIP1, NCOA3",-1.08,-0.33,+0.29,+0.20,653.7,<0.001
+HER2-amplicon,1,ERBB2,-0.48,+1.27,-0.13,-0.21,329.0,<0.001
+Basal/myoepithelial,4,"EGFR, SOX9, CDKN2A, LAMB3",+1.20,+0.03,-0.08,-0.41,551.1,<0.001
+Immune,5,"STAT1, CXCL8, PTPN22, KLRG1, FAS",+0.45,+0.27,-0.16,-0.08,220.8,<0.001
+Stromal/ECM,8,"MMP2, MMP14, PDGFRB, COL12A1, COL6A3, FN1, LAMA2, DAB2",-0.33,+0.05,+0.21,-0.19,143.9,<0.001
+Luminal-Basal axis,—,Luminal/ER − Basal/myoepithelial,-2.28,-0.36,+0.37,+0.61,621.4,<0.001
+Proliferation-Luminal axis,—,Proliferation − Luminal/ER,+2.02,+0.66,-0.84,+0.04,939.6,<0.001

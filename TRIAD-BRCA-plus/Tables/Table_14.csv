@@ -1,0 +1,10 @@
+﻿Model,Brier score,Log-loss,ECE (15 bins)
+"GBDT (XGBoost-style, v1)",0.2401,0.4900,0.0839
+Autoencoder + LR (v1),0.2329,0.4040,0.0315
+SVM-RBF (v1),0.2300,0.4030,0.0292
+TRIAD-BRCA v1: V1 equal-weight,0.2104,0.3679,0.0196
+TRIAD-BRCA v1: V8 adaptive,0.2192,0.3804,0.0217
+SVM-RBF+ (tuned),0.2168,0.3797,0.0219
+Ridge-LR+ (tuned),0.2191,0.3825,0.0188
+GBDT+ (shallow),0.2234,0.4151,0.0660
+TRIAD-BRCA+ (proposed),0.2020,0.3549,0.0168

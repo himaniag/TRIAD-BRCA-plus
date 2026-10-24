@@ -1,0 +1,16 @@
+﻿Component,Setting / search space,Selected across the 10 outer folds
+Outer protocol,"Repeated stratified 5-fold CV × 2 (10 paired folds), seed 42",—
+Inner protocol,Stratified 5-fold cross-fitting inside every outer training fold,—
+Mutation view,Binary indicator kept if ≥ 5 carriers in the training fold,—
+RBF-SVM+,"C ∈ [1.0, 2.0, 4.0, 8.0], γ = 1/(d·Var X), Platt probabilities",Selected C — 2.0: 1/10; 4.0: 3/10; 8.0: 6/10
+Ridge-LR+,"C ∈ [0.002, 0.005, 0.01, 0.02] (L2, multinomial)",Selected C — 0.01: 10/10
+GBDT+,"max_iter=300, learning_rate=0.06, max_depth=3, l2_regularization=1.0, max_features=0.2",Fixed a priori
+Selection criterion,Inner out-of-fold multi-class log-loss,—
+Fusion,Equal-weight linear opinion pool of the three posteriors,—
+Balanced-risk decision (proposed),"ŷ = arg max_k p̄_k / π_k (λ = 1, Bayes-optimal for balanced accuracy)",Fixed by theory
+Tempered decision (ablation only),"λ ∈ [0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5]; objective ½(BA + MCC) on inner OOF",Selected λ — 0.25: 1/10; 0.5: 4/10; 0.75: 1/10; 1.0: 3/10; 1.25: 1/10
+V1 + balanced-risk (control),λ = 1 applied to the v1 equal-weight posterior,Fixed by theory
+v1 GBDT (XGBoost-style),"max_iter=300, learning_rate=0.08, max_depth=6, l2_regularization=1.0, top-200 ANOVA",As v1
+v1 Autoencoder + LR,"latent=48, epochs=100, batch=32, lr=0.01, momentum=0.9, C=1.0",As v1
+v1 RBF-SVM,"C = 1.0, γ = scale, Platt probabilities",As v1
+v1 routing (V8),"β = 10, τ = 0.30, M = 15, σ² = 0.01, inner R = 1 × 5-fold",As v1 (R reduced 3→1)

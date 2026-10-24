@@ -1,0 +1,6 @@
+﻿File,Size,Content,Role in this study
+METABRIC_RNA_Mutation [86],"1,904 patients × 693 columns","489 mRNA z-scores, 173 somatic-mutation genes, 31 clinical fields","Primary modelling cohort (core-4 PAM50, n = 1,559)"
+Breast_Cancer_METABRIC [87],"1,985 patients × 34 columns",Clinical export incl. relapse-free survival,"Linked by patient ID (1,904 matched); RFS endpoint; PAM50 label concordance 100.0%"
+brca_metabric_clinical_data [88],"1,540 patients × 39 columns",cBioPortal clinical export incl. TMB,"Linked (1,500 matched); label cross-check (concordance 100.0%); TMB description only"
+brca_data_w_subtypes_tcga [89],"705 patients × 1,941 columns","RNA-seq (604 genes), mutation (249), CNV (860), RPPA (223), ER/PR/HER2 IHC","Independent external cohort (IHC-surrogate labels, n = 506)"
+clinical_-_clinical_tcga [90],"5,546 rows / 1,098 cases","GDC clinical, demographic and treatment records",External-cohort characterisation (not patient-linked)

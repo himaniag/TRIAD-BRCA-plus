@@ -1,0 +1,11 @@
+﻿Triad,Pair / statistic,Disagreement,Double-fault,Yule's Q,Error correlation
+TRIAD-BRCA v1,"GBDT (XGBoost-style, v1) vs Autoencoder + LR (v1)",0.108,0.108,0.933,0.601
+TRIAD-BRCA v1,"GBDT (XGBoost-style, v1) vs SVM-RBF (v1)",0.090,0.112,0.956,0.661
+TRIAD-BRCA v1,Autoencoder + LR (v1) vs SVM-RBF (v1),0.089,0.117,0.959,0.672
+TRIAD-BRCA v1,Triad: oracle accuracy (≥1 expert correct),0.908,,,
+TRIAD-BRCA v1,Triad: all experts wrong,0.092,,,
+TRIAD-BRCA+,SVM-RBF+ (tuned) vs Ridge-LR+ (tuned),0.059,0.121,0.983,0.770
+TRIAD-BRCA+,SVM-RBF+ (tuned) vs GBDT+ (shallow),0.106,0.097,0.929,0.583
+TRIAD-BRCA+,Ridge-LR+ (tuned) vs GBDT+ (shallow),0.097,0.103,0.944,0.621
+TRIAD-BRCA+,Triad: oracle accuracy (≥1 expert correct),0.910,,,
+TRIAD-BRCA+,Triad: all experts wrong,0.090,,,

@@ -1,0 +1,15 @@
+﻿Code,Protocol,Model,Accuracy,BA (95% CI),Macro-F1,MCC (95% CI),Predicted TN/HER2/Lum
+E1,"v1 protocol: source-fitted scaling, PAM50-trained","GBDT (XGBoost-style, v1)",0.261,0.333 (0.285–0.381),0.271,0.037 (-0.025–0.096),311/125/70
+E1,"v1 protocol: source-fitted scaling, PAM50-trained",Autoencoder + LR (v1),0.595,0.629 (0.582–0.677),0.556,0.373 (0.308–0.436),158/131/217
+E1,"v1 protocol: source-fitted scaling, PAM50-trained",SVM-RBF (v1),0.178,0.333 (0.333–0.333),0.101,0.000 (0.000–0.000),506/0/0
+E1,"v1 protocol: source-fitted scaling, PAM50-trained",TRIAD-BRCA v1: V1 equal-weight,0.581,0.616 (0.570–0.658),0.534,0.369 (0.308–0.431),201/99/206
+E2,"Per-cohort harmonisation, PAM50-trained","GBDT (XGBoost-style, v1)",0.757,0.628 (0.585–0.672),0.639,0.497 (0.425–0.567),89/46/371
+E2,"Per-cohort harmonisation, PAM50-trained",Autoencoder + LR (v1),0.769,0.656 (0.613–0.699),0.652,0.535 (0.467–0.602),110/39/357
+E2,"Per-cohort harmonisation, PAM50-trained",SVM-RBF (v1),0.755,0.646 (0.604–0.690),0.635,0.513 (0.440–0.583),116/42/348
+E2,"Per-cohort harmonisation, PAM50-trained",TRIAD-BRCA v1: V1 equal-weight,0.773,0.652 (0.613–0.694),0.653,0.538 (0.471–0.603),103/40/363
+E2,"Per-cohort harmonisation, PAM50-trained",TRIAD-BRCA+ (proposed),0.733,0.660 (0.618–0.703),0.638,0.496 (0.425–0.560),123/66/317
+E3,"Per-cohort harmonisation, IHC-label-harmonised","GBDT (XGBoost-style, v1)",0.777,0.607 (0.566–0.651),0.637,0.528 (0.459–0.594),67/35/404
+E3,"Per-cohort harmonisation, IHC-label-harmonised",Autoencoder + LR (v1),0.789,0.652 (0.611–0.694),0.669,0.562 (0.494–0.626),87/37/382
+E3,"Per-cohort harmonisation, IHC-label-harmonised",SVM-RBF (v1),0.783,0.635 (0.591–0.679),0.657,0.545 (0.474–0.613),78/39/389
+E3,"Per-cohort harmonisation, IHC-label-harmonised",TRIAD-BRCA v1: V1 equal-weight,0.792,0.638 (0.596–0.681),0.664,0.566 (0.498–0.635),75/36/395
+E3,"Per-cohort harmonisation, IHC-label-harmonised",TRIAD-BRCA+ (proposed),0.727,0.695 (0.646–0.743),0.673,0.510 (0.442–0.576),96/118/292

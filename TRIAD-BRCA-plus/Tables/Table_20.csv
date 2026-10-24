@@ -1,0 +1,20 @@
+﻿Source,Characteristic,Value
+Multi-omics export,Patients,705
+Multi-omics export,Histology: infiltrating ductal / lobular,574 / 131
+Multi-omics export,ER positive / negative / unavailable,414 / 135 / 156
+Multi-omics export,HER2 positive / negative / unavailable,86 / 457 / 162
+Multi-omics export,Usable IHC-surrogate label,506
+Multi-omics export,Triple-negative (Basal-like),90 (17.8%)
+Multi-omics export,HER2-positive (HER2-like),86 (17.0%)
+Multi-omics export,HR+/HER2- (Luminal),330 (65.2%)
+Multi-omics export,Deceased (vital.status = 1),94 (13.3%)
+GDC clinical export,Unique cases,1098
+GDC clinical export,"Age at diagnosis, years (mean ± SD)",59.1 ± 13.1
+GDC clinical export,Female,1085
+GDC clinical export,AJCC pathologic Stage I,174
+GDC clinical export,AJCC pathologic Stage II,576
+GDC clinical export,AJCC pathologic Stage III,217
+GDC clinical export,AJCC pathologic Stage IV,18
+GDC clinical export,AJCC pathologic Stage X,7
+GDC clinical export,AJCC pathologic Not reported,102
+GDC clinical export,Vital status: dead,152

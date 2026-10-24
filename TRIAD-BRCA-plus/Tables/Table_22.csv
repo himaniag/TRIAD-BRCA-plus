@@ -1,0 +1,9 @@
+﻿Endpoint,TRIAD-BRCA v1 (as reported),"TRIAD-BRCA v1 V1 (re-run, same folds)",TRIAD-BRCA+ balanced-risk (primary),TRIAD-BRCA+ arg-max operating point
+METABRIC Balanced Accuracy,0.830 ± 0.022,0.831 ± 0.015,0.849 ± 0.019,0.843 ± 0.026
+METABRIC Macro-F1,0.838 ± 0.022,0.840 ± 0.016,0.844 ± 0.021,0.852 ± 0.025
+METABRIC MCC,0.773 ± 0.026,0.777 ± 0.020,0.780 ± 0.031,0.791 ± 0.035
+METABRIC Macro-AUC,0.969 ± 0.006,0.970 ± 0.007,0.972 ± 0.006,0.972 ± 0.006
+METABRIC Accuracy,not reported,0.847 ± 0.014,0.846 ± 0.022,0.857 ± 0.024
+TCGA transfer Balanced Accuracy,0.534,0.616,0.695,—
+TCGA transfer MCC,0.336,0.369,0.510,—
+TCGA transfer Accuracy,0.607,0.581,0.727,—

@@ -1,0 +1,25 @@
+﻿Feature group / top-20 feature,Δ log-loss when permuted,Δ Balanced Accuracy when permuted
+Clinical,0.0061 ± 0.0042,-0.0014 ± 0.0022
+Knowledge-guided modules,0.0335 ± 0.0078,+0.0162 ± 0.0060
+RNA expression,2.1409 ± 0.0910,+0.5568 ± 0.0279
+Somatic mutation,0.0003 ± 0.0013,+0.0016 ± 0.0052
+CDK1 (RNA),0.0104,+0.0038
+EGFR (RNA),0.0075,+0.0032
+Proliferation (module),0.0070,+0.0017
+ERBB2 (RNA),0.0056,+0.0065
+HER2-amplicon (module),0.0046,+0.0044
+MMP10 (RNA),0.0045,+0.0019
+FOLR1 (RNA),0.0040,+0.0035
+E2F2 (RNA),0.0038,+0.0014
+IGF1R (RNA),0.0037,-0.0041
+ABCB1 (RNA),0.0035,-0.0016
+KIT (RNA),0.0035,-0.0014
+NOTCH1 (RNA),0.0034,+0.0026
+MMP7 (RNA),0.0031,-0.0002
+BARD1 (RNA),0.0030,+0.0004
+BCL2 (RNA),0.0030,-0.0020
+SPRY2 (RNA),0.0029,-0.0018
+HSD17B2 (RNA),0.0027,-0.0008
+E2F7 (RNA),0.0027,+0.0020
+Luminal-Basal axis (module),0.0025,+0.0081
+CHEK1 (RNA),0.0025,+0.0019

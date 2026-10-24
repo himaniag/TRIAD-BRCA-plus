@@ -1,0 +1,7 @@
+﻿Fusion rule (TRIAD-BRCA+ experts),Arg-max,Balanced-risk (λ = 1),Tempered (λ inner-tuned)
+Best single expert,0.8291 / 0.7715,0.8336 / 0.7611,0.8327 / 0.7671
+Linear pool (equal),0.8433 / 0.7911,0.8491 / 0.7795,0.8455 / 0.7810
+Log-linear pool,0.8439 / 0.7916,0.8504 / 0.7848,0.8459 / 0.7826
+Stacked meta-learner,0.8394 / 0.7824,0.8471 / 0.7746,0.8438 / 0.7775
+BE-adaptive routing (v1 Eqs. 5–7),0.8432 / 0.7915,0.8489 / 0.7799,0.8475 / 0.7843
+"TRIAD-BRCA v1 experts, equal-weight (V1)",0.8315 / 0.7773,0.8416 / 0.7705,—

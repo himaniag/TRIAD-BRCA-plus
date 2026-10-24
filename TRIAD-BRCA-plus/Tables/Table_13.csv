@@ -1,0 +1,13 @@
+﻿Model,Subtype,Precision,Recall,Specificity,F1 (95% CI),AUC,Support
+TRIAD-BRCA v1: V1 equal-weight,Basal-like,0.960,0.844,0.995,0.898 (0.862–0.928),0.994,199
+TRIAD-BRCA v1: V1 equal-weight,HER2-enriched,0.770,0.759,0.963,0.764 (0.717–0.809),0.963,220
+TRIAD-BRCA v1: V1 equal-weight,Luminal A,0.881,0.891,0.907,0.886 (0.866–0.902),0.969,679
+TRIAD-BRCA v1: V1 equal-weight,Luminal B,0.800,0.833,0.913,0.816 (0.787–0.841),0.957,461
+TRIAD-BRCA+ (arg-max operating point),Basal-like,0.983,0.869,0.998,0.923 (0.895–0.948),0.994,199
+TRIAD-BRCA+ (arg-max operating point),HER2-enriched,0.799,0.777,0.968,0.788 (0.744–0.830),0.964,220
+TRIAD-BRCA+ (arg-max operating point),Luminal A,0.877,0.901,0.902,0.889 (0.871–0.906),0.971,679
+TRIAD-BRCA+ (arg-max operating point),Luminal B,0.828,0.846,0.926,0.837 (0.811–0.861),0.962,461
+TRIAD-BRCA+ (proposed),Basal-like,0.962,0.884,0.995,0.921 (0.892–0.947),0.994,199
+TRIAD-BRCA+ (proposed),HER2-enriched,0.708,0.836,0.943,0.767 (0.722–0.810),0.964,220
+TRIAD-BRCA+ (proposed),Luminal A,0.908,0.859,0.933,0.883 (0.863–0.901),0.971,679
+TRIAD-BRCA+ (proposed),Luminal B,0.810,0.833,0.918,0.821 (0.794–0.846),0.962,461

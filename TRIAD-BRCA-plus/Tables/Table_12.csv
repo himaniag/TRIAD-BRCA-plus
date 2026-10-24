@@ -1,0 +1,4 @@
+﻿Boundary-Energy stratum,n (test predictions),SVM-RBF+ (tuned),Ridge-LR+ (tuned),GBDT+ (shallow)
+Low (BE < 0.15),1781,0.333,0.333,0.333
+Moderate (0.15 ≤ BE < 0.30),500,0.333,0.333,0.334
+High (BE ≥ 0.30),837,0.333,0.333,0.334

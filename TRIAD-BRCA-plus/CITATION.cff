@@ -1,0 +1,52 @@
+# Zenodo reads this file when it archives a GitHub release, and GitHub uses it
+# for the "Cite this repository" button. Before your first release:
+#   1. add each author's ORCID iD (uncomment the orcid lines),
+#   2. fill in repository-code with the GitHub URL,
+#   3. uncomment license once you have chosen one (it must match the LICENSE file).
+cff-version: 1.2.0
+message: "If you use this code, figures or tables, please cite the article listed under preferred-citation."
+type: software
+title: "TRIAD-BRCA+: code, figures and tables for leakage-controlled PAM50 breast cancer subtyping"
+version: 1.0.0
+authors:
+  - family-names: Agrawal
+    given-names: Himani
+    affiliation: "Department of CSE & IT, Jaypee Institute of Information Technology, Noida, India"
+    email: agrawal.himani1010@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Rathi
+    given-names: Megha
+    affiliation: "Department of CSE & IT, Jaypee Institute of Information Technology, Noida, India"
+    email: megha.rathi@mail.jiit.ac.in
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+# repository-code: "https://github.com/<github-username>/TRIAD-BRCA-plus"
+# license: MIT
+abstract: >-
+  Code, figures and tables for TRIAD-BRCA+, a leakage-controlled framework for
+  PAM50 breast cancer subtyping on METABRIC with harmonised transfer to
+  TCGA-BRCA. It combines a full-panel multi-view representation with eight
+  label-free meta-gene modules, a tuned heterogeneous expert triad (RBF-SVM,
+  ridge multinomial regression, shallow gradient boosting), an equal-weight
+  opinion pool and a balanced-risk decision rule that is Bayes-optimal for
+  balanced accuracy.
+keywords:
+  - breast cancer molecular subtyping
+  - PAM50 intrinsic subtypes
+  - multi-omics integration
+  - heterogeneous ensemble learning
+  - Bayes-optimal decision rule
+  - data leakage
+  - cross-cohort harmonisation
+  - METABRIC
+  - TCGA-BRCA
+preferred-citation:
+  type: article
+  title: "TRIAD-BRCA+: Knowledge-Guided Heterogeneous Ensembling with Balanced-Risk Decision Calibration for Leakage-Controlled PAM50 Breast Cancer Subtyping and Harmonised Cross-Cohort Transfer"
+  authors:
+    - family-names: Agrawal
+      given-names: Himani
+    - family-names: Rathi
+      given-names: Megha
+  journal: "Journal of Computer Science & Technology"
+  status: submitted
+  # After acceptance: remove status and add year, volume, issue, start, end and doi.

@@ -1,0 +1,9 @@
+# Versions from the saved run in TRIAD-BRCA-plus_Colab.ipynb (Python 3.13.15, Google Colab CPU runtime)
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+joblib==1.6.0
+threadpoolctl>=3.1
+openpyxl>=3.1

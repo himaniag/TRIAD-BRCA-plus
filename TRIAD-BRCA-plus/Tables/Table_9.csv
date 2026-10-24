@@ -1,0 +1,8 @@
+﻿Step,Configuration,Balanced Accuracy,Macro-F1,MCC,Macro-AUC,ΔBA vs previous,p_Holm
+A0,TRIAD-BRCA v1 equal-weight triad (V1),0.8315 ± 0.0147,0.8399 ± 0.0157,0.7773 ± 0.0196,0.9703 ± 0.0068,—,—
+A1,+ strict leakage governance (treatment & histology removed),0.8330 ± 0.0202,0.8415 ± 0.0192,0.7781 ± 0.0243,0.9704 ± 0.0065,+0.0015,1.000
+A2,+ full-panel multi-view input (no univariate top-200 bottleneck),0.8414 ± 0.0145,0.8509 ± 0.0155,0.7887 ± 0.0171,0.9702 ± 0.0059,+0.0084,1.000
+A3,"+ re-designed tuned heterogeneous triad (equal-weight, arg-max)",0.8384 ± 0.0229,0.8482 ± 0.0217,0.7876 ± 0.0284,0.9722 ± 0.0058,-0.0030,1.000
+A4,+ knowledge-guided meta-gene modules,0.8433 ± 0.0260,0.8524 ± 0.0246,0.7911 ± 0.0354,0.9723 ± 0.0059,+0.0048,1.000
+A5,+ balanced-risk decision (= TRIAD-BRCA+),0.8491 ± 0.0187,0.8439 ± 0.0206,0.7795 ± 0.0314,0.9723 ± 0.0059,+0.0058,1.000
+A0→A5,Cumulative gain,,,,,+0.0176,0.007
