@@ -5,7 +5,7 @@
 Himani Agrawal and Megha Rathi<br>
 Department of CSE & IT, Jaypee Institute of Information Technology, Noida, India
 
-[[![DOI](https://doi.org/10.5281/zenodo.23684229)]
+https://doi.org/10.5281/zenodo.23684229
 
 Code, figures and tables accompanying the manuscript submitted to the *Journal of Computer Science & Technology*.
 
